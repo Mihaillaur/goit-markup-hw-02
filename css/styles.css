@@ -6,6 +6,7 @@
   --hover-color: #404bbf;
   --btn-color-normal: #4d5ae5;
   --secondary-bcg-color: #f4f4fd;
+  --color-grey: #434455;
 }
 .list {
   list-style: none;
@@ -84,7 +85,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  color: #434455;
+  color: var(--color-grey);
 }
 
 .contacts-link:hover,
@@ -106,6 +107,7 @@ body {
 .btn {
   color: var(--primary-light-color);
   background-color: var(--btn-color-normal);
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
@@ -152,7 +154,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-grey);
 }
 .footer {
   background-color: var(--primary-color);
@@ -174,4 +176,23 @@ body {
 
   color: #4d5ae5;
   background-color: var(--secondary-bcg-color);
+}
+.nav-button:hover,
+.nav-button:focus {
+  color: var(--primary-light-color);
+  background: #404bbf;
+}
+.services-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+.direction {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
 }
